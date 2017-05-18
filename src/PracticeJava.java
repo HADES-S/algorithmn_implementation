@@ -4,14 +4,14 @@ import java.util.function.Predicate;
  * Created by Administrator on 2017/3/29.
  */
 public class PracticeJava extends Java{
-    static {
-        System.out.println("hello");
-    }
     PracticeJava(){
         System.out.println("construct practicejava");
     }
     public static void main(String[] args){
-        new PracticeJava();
+        Java a = null ;
+        synchronized (a){
+            System.out.println("hello");
+        }
     }
 }
 class Java{
