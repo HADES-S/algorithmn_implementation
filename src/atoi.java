@@ -8,6 +8,15 @@ import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * Created by Administrator on 2017/5/8.
+ * 字符长度=0
+ * 字符前面有空格字符
+ * 首位为+0，-0的情况
+ * 字符为非数字
+ * 字符是不是只有一位
+ * 判断是不是负数
+ * 判断有没有+号，判断加减是否同时出现
+ *判断小数点个数
+ * num正数比负数小一，可能会爆
  */
 public class atoi {
     public static int myAtoi(String str) {

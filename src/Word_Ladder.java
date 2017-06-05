@@ -32,7 +32,7 @@ public class Word_Ladder {
                     if(wordList.get(i).equals(endWord))
                     {
                         flag =true;
-                        return length+1;
+                        return length;
                     }
                 }
             }
